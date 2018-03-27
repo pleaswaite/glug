@@ -2,6 +2,7 @@
 
 import sys
 import sqlite3
+import logger #required to log the QSO to a file
 from PyQt4 import QtCore, QtGui, uic
 
 qtCreatorFile = 'ui.ui'
